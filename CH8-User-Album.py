@@ -4,7 +4,7 @@ def make_album(artist_nm, album_nm):
 
 while True:
     print("\nPlease Enter an music artist and album title:")
-    print("\n(you can quit by entering q at anytime)")
+    print("(you can quit by entering q at anytime)")
     artist_name = input("Artist: ")
     if artist_name == 'q':
         break
